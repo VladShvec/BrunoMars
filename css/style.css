@@ -42,7 +42,7 @@ header {
   background-image: url(../image/header_bg.jpg);
   height: 688px;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top;
   padding-top: 143px; }
   header .main_photo {
     background-image: url(../image/BruniMars_photo.jpg);
@@ -105,7 +105,8 @@ header {
 
 .About_me {
   height: 613px;
-  padding-top: 67px; }
+  padding-top: 67px;
+  background-color: #f3f3f3; }
   .About_me .About-text {
     float: left;
     margin-left: 10px;
@@ -137,5 +138,39 @@ header {
     float: right;
     margin-top: 5px;
     margin-right: 10px; }
+
+.MyServices {
+  padding-top: 68px;
+  height: 859px;
+  background-image: url(../image/myservice_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .MyServices .heading {
+    margin-bottom: 79px; }
+    .MyServices .heading h2 {
+      color: #fff; }
+  .MyServices .smallblock {
+    width: 300px;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-right: 58px;
+    margin-bottom: 105px; }
+    .MyServices .smallblock img {
+      vertical-align: top; }
+    .MyServices .smallblock .title {
+      color: #c3c4c5;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 22px;
+      text-align: center;
+      margin-top: 18px; }
+    .MyServices .smallblock p {
+      font-size: 17px;
+      color: #c3c4c5;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1.4;
+      color: #a4a6a7; }
 
 /*# sourceMappingURL=style.css.map */
