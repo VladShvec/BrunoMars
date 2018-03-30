@@ -317,4 +317,57 @@ header {
       font-weight: 600;
       margin-right: 0px; }
 
+.Status {
+  background-image: url(../image/status.jpg);
+  background-size: cover;
+  height: 540px;
+  padding-top: 159px; }
+  .Status .elips {
+    text-align: center;
+    margin-left: 62px; }
+
+#superfooter {
+  height: 86px;
+  padding-top: 70px;
+  background-color: #f3f3f3; }
+  #superfooter .Status_title {
+    text-align: center;
+    font-family: "Raleway" , sans-serif;
+    font-size: 24px;
+    margin-left: -185px;
+    text-transform: capitalize;
+    color: #595959; }
+  #superfooter a {
+    display: inline-block;
+    float: right;
+    margin-top: -45px;
+    margin-right: 236px;
+    font-size: 25px;
+    font-family: "Raleway";
+    padding-top: 19px;
+    padding-bottom: 13px;
+    width: 166px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #5dbed2;
+    color: #fff;
+    text-align: center; }
+
+#footer {
+  height: 70px;
+  padding-top: 2px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #f3f3f3; }
+  #footer p {
+    padding-top: 20px;
+    margin-left: -60px;
+    font-size: 16px;
+    color: #8e8e8e;
+    font-family: "Raleway";
+    display: inline-block; }
+  #footer .soc {
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+    margin-right: -40px; }
+
 /*# sourceMappingURL=style.css.map */
