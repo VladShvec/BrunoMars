@@ -182,7 +182,7 @@ html,body
 .MyServices
 {
         padding-top: 68px;
-        height: 859px;
+        height: 800px;
         background-image: url(../image/myservice_bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -227,5 +227,82 @@ html,body
                         color: #a4a6a7;
                 }
         }
+        
+}
+.Portfolio
+{
+height: 608px;
+padding-top: 69px;
+        .heading
+        {
+                margin-bottom: 59px;
+        }
+        .image_block
+        {
+                display: inline-block;
+               margin-left: 12px;
+                margin-right: -16px;
+                margin-top: -2px;
+               width: 265px;
+                height: 199px;
+                p 
+                {
+                    font-size: 24px;
+                        
+                        font-weight: 300;
+                        padding-top: 119px;
+                        padding-bottom: 32px;
+
+                        color: transparent;
+                        text-align: center;
+
+                        font-family: "Raleway" , sans-serif;
+                        span {
+                                font-weight: 600;
+
+                                font-size: 17px;
+                        }
+                }
+        }
+}
+.image_block:nth-child(1)
+{
+        background-image: url(../image/street.jpg);
+}
+.image_block:nth-child(2)
+{
+        background-image: url(../image/homs.jpg);
+}
+.image_block:nth-child(3)
+{
+        background-image: url(../image/guitar.jpg);
+}
+.image_block:nth-child(4)
+{
+        background-image: url(../image/women.jpg);
+}
+.image_block:nth-child(5)
+{
+        background-image: url(../image/city.jpg);
+}
+.image_block:nth-child(6)
+{
+        background-image: url(../image/bird.jpg);
+}
+.image_block:nth-child(7)
+{
+        background-image: url(../image/lights.jpg);
+}
+.image_block:nth-child(8)
+{
+        background-image: url(../image/phone.jpg);
+}
+.image_block p:hover
+{
+        background: rgba(0,0,0,.8) url(../image/plus.png);
+        background-repeat: no-repeat;
+        background-position:50% 34%;
+        color: #cfcfcf;
+        cursor: pointer;
         
 }
