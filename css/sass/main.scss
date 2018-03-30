@@ -54,6 +54,7 @@ html,body
         height: 688px;
         background-repeat: no-repeat;
         background-position: top;
+        background-size: cover;
                 padding-top: 143px;
                 .main_photo    {
                 background-image: url(../image/BruniMars_photo.jpg);
@@ -231,8 +232,9 @@ html,body
 }
 .Portfolio
 {
-height: 608px;
+height: 526px;
 padding-top: 69px;
+background-color: #f3f3f3;
         .heading
         {
                 margin-bottom: 59px;
@@ -305,4 +307,116 @@ padding-top: 69px;
         color: #cfcfcf;
         cursor: pointer;
         
+}
+.Blog
+{
+        height: 1440px;
+        padding-top: 69px;
+        background-color: #f3f3f3;
+        .l_bocks{
+                margin-left: 12px;
+                width: 1144px;
+        
+        .longer_bocks
+        {
+                background-color: #fff;
+                width: 281px;
+                display: inline-block;
+                padding: 14px;
+                margin-right: 61px;
+                margin-left: 1px;
+                margin-bottom: 60px;
+                box-shadow: 0 0 16px -8px;
+                vertical-align: top;}
+                .long-text{
+                           text-align: left;
+                                padding-left: 26px;
+                                padding-right: 20px;
+                                margin-top: 21px;
+               
+                h5
+                {
+                        font-weight: 800;
+                        text-transform: uppercase;
+                        font-family: "Raleway" , sans-serif;
+                        color: #595959;
+                        font-size: 18px;
+                        line-height: normal;
+                }
+                .BrunoMars
+                {
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-family: "Raleway" , sans-serif;
+                        line-height: normal;
+                        color: #7c7c7c;
+                        border-right: 1.5px solid #7c7c7c;
+                        padding-right: 8px;
+                }
+                .comments
+                {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-family: "Raleway" , sans-serif;
+                font-size: 14px;
+                color: #7c7c7c;
+                line-height: normal;
+                margin-left: 5px;
+                }
+                        
+                p{
+                       text-transform: uppercase;
+                        font-weight: 500;
+                        font-family: "Raleway" , sans-serif;
+                        margin-top: 12px;
+                        color: #7c7c7c;
+                        line-height: 1.4;
+                }
+                        
+                .button_long
+                        {
+                        margin-top: 15px;
+                        margin-bottom: 11px;
+                        margin-left: 111px;
+                                a 
+                                {
+                                        background-color: #64c9db;
+                                        display: block;
+                                        width: 98px;
+                                        text-align: center;
+                                        text-transform: uppercase;
+                                        color: #fff;
+                                        font-weight: 600;
+                                        font-family: "Raleway" , sans-serif;
+                                        padding-top: 10px;
+                                        padding-bottom: 13px;
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                        font-size: 19px;
+                                }
+                        }
+                 }
+                
+                }
+                .blog_title
+                {
+                font-size: 26px;
+                text-align: center;
+                text-transform: capitalize;
+                margin-top: 14px;
+                font-family: "Raleway" , sans-serif;
+                font-weight: 500;   
+                color: #b3b3b3;
+                        span 
+                        {
+                                   text-transform: uppercase;
+                                    color: #64c9db;
+                                    font-size: 24px;
+                                    font-family: "Raleway" , sans-serif;
+                                    font-weight: 600;
+                                    margin-right: 0px;
+                        }
+                        }
+                
 }

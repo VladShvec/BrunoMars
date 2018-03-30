@@ -43,6 +43,7 @@ header {
   height: 688px;
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
   padding-top: 143px; }
   header .main_photo {
     background-image: url(../image/BruniMars_photo.jpg);
@@ -174,8 +175,9 @@ header {
       color: #a4a6a7; }
 
 .Portfolio {
-  height: 608px;
-  padding-top: 69px; }
+  height: 526px;
+  padding-top: 69px;
+  background-color: #f3f3f3; }
   .Portfolio .heading {
     margin-bottom: 59px; }
   .Portfolio .image_block {
@@ -227,5 +229,92 @@ header {
   background-position: 50% 34%;
   color: #cfcfcf;
   cursor: pointer; }
+
+.Blog {
+  height: 1440px;
+  padding-top: 69px;
+  background-color: #f3f3f3; }
+  .Blog .l_bocks {
+    margin-left: 12px;
+    width: 1144px; }
+    .Blog .l_bocks .longer_bocks {
+      background-color: #fff;
+      width: 281px;
+      display: inline-block;
+      padding: 14px;
+      margin-right: 61px;
+      margin-left: 1px;
+      margin-bottom: 60px;
+      box-shadow: 0 0 16px -8px;
+      vertical-align: top; }
+    .Blog .l_bocks .long-text {
+      text-align: left;
+      padding-left: 26px;
+      padding-right: 20px;
+      margin-top: 21px; }
+      .Blog .l_bocks .long-text h5 {
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: "Raleway" , sans-serif;
+        color: #595959;
+        font-size: 18px;
+        line-height: normal; }
+      .Blog .l_bocks .long-text .BrunoMars {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Raleway" , sans-serif;
+        line-height: normal;
+        color: #7c7c7c;
+        border-right: 1.5px solid #7c7c7c;
+        padding-right: 8px; }
+      .Blog .l_bocks .long-text .comments {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Raleway" , sans-serif;
+        font-size: 14px;
+        color: #7c7c7c;
+        line-height: normal;
+        margin-left: 5px; }
+      .Blog .l_bocks .long-text p {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Raleway" , sans-serif;
+        margin-top: 12px;
+        color: #7c7c7c;
+        line-height: 1.4; }
+      .Blog .l_bocks .long-text .button_long {
+        margin-top: 15px;
+        margin-bottom: 11px;
+        margin-left: 111px; }
+        .Blog .l_bocks .long-text .button_long a {
+          background-color: #64c9db;
+          display: block;
+          width: 98px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: 600;
+          font-family: "Raleway" , sans-serif;
+          padding-top: 10px;
+          padding-bottom: 13px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 19px; }
+  .Blog .blog_title {
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 14px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 500;
+    color: #b3b3b3; }
+    .Blog .blog_title span {
+      text-transform: uppercase;
+      color: #64c9db;
+      font-size: 24px;
+      font-family: "Raleway" , sans-serif;
+      font-weight: 600;
+      margin-right: 0px; }
 
 /*# sourceMappingURL=style.css.map */
