@@ -1,14 +1,5 @@
 
 
-@font-face {
-font-family: 'font28c359a7de11841403f999f046f4a953';
-        src:    url('https://nomail.com.ua/files/eot/28c359a7de11841403f999f046f4a953.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/28c359a7de11841403f999f046f4a953.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/28c359a7de11841403f999f046f4a953.woff2') format('woff2');
-}
-
-@font-face { font-family: 'Taiga';  src: local('Taiga'), url('https://nomail.com.ua/files/woff/28c359a7de11841403f999f046f4a953.woff') format('woff'); }
-
 
 html,body
 {
@@ -33,6 +24,28 @@ html,body
     margin-left: auto;
     margin-right: auto;
 }
+ .About-text:after
+{
+        content: '';
+        display: block;
+        clear: both;
+}
+.video:after
+{
+        content: '';
+        display: block;
+        clear: both;
+}
+#footer:before
+{
+        content: '';
+        display: block;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        width: 1198px;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
 .heading{ 
         text-align: center;
         margin-bottom: 76px;
@@ -51,7 +64,7 @@ html,body
 }header
 {
         background-image: url(../image/header_bg.jpg);
-        height: 688px;
+        padding-bottom: 123px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -97,6 +110,7 @@ html,body
                                         padding-bottom: 13px;
                                         display: inline-block;
                                         margin-right: 9px;
+                                        font-weight: 400;
                                         
                                         a 
                                         {
@@ -121,7 +135,7 @@ html,body
                                         display: inline-block;
                                        margin-right: -7px;
                                         margin-left: 19px;
-                                        
+                                        font-weight: 400;                                        
                                                  a 
                                         {
                                           color: #fff;
@@ -136,9 +150,11 @@ html,body
 }  
 .About_me
 {
-       height: 613px; 
-        padding-top: 67px;
-        background-color: #f3f3f3;
+      /*height: 613px;*/ 
+height: 494px;
+padding-top: 67px;
+background-color: #f3f3f3;
+padding-bottom: 123px;
                 .About-text{
                        float: left;
                         margin-left: 10px;
@@ -167,9 +183,11 @@ html,body
                                 font-size: 16px;
                                 color: #b9b9b9;
                                 line-height: normal;
-                                text-transform: uppercase;line-height: 1.9;
                                 text-transform: uppercase;
+                                line-height: 1.9;
                                 text-align: left;
+                                font-weight: 400;
+                                
                         }
                 } 
                 .video
@@ -183,25 +201,29 @@ html,body
 .MyServices
 {
         padding-top: 68px;
-        height: 800px;
+        /*height: 800px;*/
         background-image: url(../image/myservice_bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         .heading
         {
-                margin-bottom: 79px;
+                margin-bottom: 76px;
         h2
         {
                 color: #fff;
         }
         }
+          .l_bocks{
+                    margin-left: 8px;
+                           width: 1157px;
+
         .smallblock
         {
                 width: 300px;
                 text-align: center;
-                vertical-align: bottom;
+                vertical-align: top;
                 display: inline-block;
-                margin-right: 58px;
+                margin-right: 83px;
     margin-bottom: 105px;
 
 
@@ -228,13 +250,14 @@ html,body
                         color: #a4a6a7;
                 }
         }
-        
+        }
 }
 .Portfolio
 {
-height: 526px;
+/*height: 526px;*/
 padding-top: 69px;
 background-color: #f3f3f3;
+        padding-bottom: 69px;
         .heading
         {
                 margin-bottom: 59px;
@@ -310,8 +333,8 @@ background-color: #f3f3f3;
 }
 .Blog
 {
-        height: 1440px;
-        padding-top: 69px;
+        padding-bottom: 76px;
+        padding-top: 29px;
         background-color: #f3f3f3;
         .l_bocks{
                 margin-left: 12px;
@@ -404,7 +427,7 @@ background-color: #f3f3f3;
                 font-size: 26px;
                 text-align: center;
                 text-transform: capitalize;
-                margin-top: 14px;
+                margin-top: 17px;
                 font-family: "Raleway" , sans-serif;
                 font-weight: 500;   
                 color: #b3b3b3;
@@ -468,8 +491,6 @@ background-color: #f3f3f3;
 {
                 height: 70px;
                 padding-top: 2px;
-
-                border-top: 1px solid rgba(0,0,0,.2);
                 background-color: #f3f3f3;
         p {
                 padding-top: 20px;
@@ -489,6 +510,5 @@ background-color: #f3f3f3;
                 
         }
 }
-
 
 
