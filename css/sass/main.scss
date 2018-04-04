@@ -11,7 +11,6 @@ html,body
 .wrapper{
             position: relative;
             max-width: 100%;
-            min-width: 980px;
             box-sizing: border-box;
             min-height: 100%;
         background-image: url(../image/main_bg.jpg);
@@ -41,7 +40,7 @@ html,body
         content: '';
         display: block;
         border-top: 1px solid rgba(0, 0, 0, 0.2);
-        width: 1198px;
+        max-width: 1198px;
         margin-left: auto;
         margin-right: auto;
         
@@ -235,7 +234,7 @@ padding-bottom: 123px;
         }
           .l_bocks{
                     margin-left: 8px;
-                           width: 1157px;
+                          
 
         .smallblock
         {
@@ -271,6 +270,10 @@ padding-bottom: 123px;
                         font-family: "Raleway" , sans-serif;
                 }
         }
+        }
+.smallblock:nth-child(3n)
+        {
+                margin-right: 0;
         }
 }
 .Portfolio
@@ -327,7 +330,7 @@ background-color: #f3f3f3;
         background-color: #f3f3f3;
         .l_bocks{
                 margin-left: 12px;
-                width: 1144px;
+               
         
         .longer_bocks
         {
@@ -436,8 +439,13 @@ background-color: #f3f3f3;
                                     margin-right: 0px;
                         }
                         }
+        .longer_bocks:nth-child(3n)
+{
+        margin-right: 0;
+}
                 
 }
+
 .Status
 {
         background-image: url(../image/status.jpg);
@@ -528,7 +536,7 @@ background-color: #f3f3f3;
                 background-color: #f3f3f3;
         p {
                 padding-top: 20px;
-                margin-left: -60px;
+               
                 font-size: 16px;
                 color: #8e8e8e;
                 font-family: "Raleway";
@@ -540,9 +548,23 @@ background-color: #f3f3f3;
                 display: inline-block;
                 float: right;
                 padding-top: 15px;
-                margin-right: -40px;   
+                
                 
         }
 }
 
+@media screen and(max-width: 1000px)
+{
+         .MyServices 
+        {
+                
+       
+        .l_bocks
+        {
+                width: 1059px;
+                margin-left: 0px;
+                
+        }
+                 }
+}
 

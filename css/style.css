@@ -7,7 +7,6 @@ html, body {
 .wrapper {
   position: relative;
   max-width: 100%;
-  min-width: 980px;
   box-sizing: border-box;
   min-height: 100%;
   background-image: url(../image/main_bg.jpg);
@@ -33,7 +32,7 @@ html, body {
   content: '';
   display: block;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-  width: 1198px;
+  max-width: 1198px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -179,8 +178,7 @@ header {
     .MyServices .heading h2 {
       color: #fff; }
   .MyServices .l_bocks {
-    margin-left: 8px;
-    width: 1157px; }
+    margin-left: 8px; }
     .MyServices .l_bocks .smallblock {
       width: 300px;
       text-align: center;
@@ -205,6 +203,8 @@ header {
         line-height: 1.4;
         color: #a4a6a7;
         font-family: "Raleway" , sans-serif; }
+  .MyServices .smallblock:nth-child(3n) {
+    margin-right: 0; }
 
 .Portfolio {
   /*height: 526px;*/
@@ -244,8 +244,7 @@ header {
   padding-top: 29px;
   background-color: #f3f3f3; }
   .Blog .l_bocks {
-    margin-left: 12px;
-    width: 1144px; }
+    margin-left: 12px; }
     .Blog .l_bocks .longer_bocks {
       background-color: #fff;
       width: 281px;
@@ -327,6 +326,8 @@ header {
       font-family: "Raleway" , sans-serif;
       font-weight: bold;
       margin-right: 0px; }
+  .Blog .longer_bocks:nth-child(3n) {
+    margin-right: 0; }
 
 .Status {
   background-image: url(../image/status.jpg);
@@ -396,7 +397,6 @@ header {
   background-color: #f3f3f3; }
   #footer p {
     padding-top: 20px;
-    margin-left: -60px;
     font-size: 16px;
     color: #8e8e8e;
     font-family: "Raleway";
@@ -404,7 +404,11 @@ header {
   #footer .soc {
     display: inline-block;
     float: right;
-    padding-top: 15px;
-    margin-right: -40px; }
+    padding-top: 15px; }
+
+@media screen and (max-width: 1000px) {
+  .MyServices .l_bocks {
+    width: 1059px;
+    margin-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
