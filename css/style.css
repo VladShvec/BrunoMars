@@ -132,7 +132,6 @@ header {
   background-color: #f3f3f3;
   padding-bottom: 123px; }
   .About_me .About-text {
-    float: left;
     margin-left: 10px;
     width: 508px;
     margin-right: 91px; }
@@ -408,7 +407,6 @@ header {
 
 @media screen and (max-width: 1000px) {
   .MyServices .l_bocks {
-    width: 1059px;
     margin-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
