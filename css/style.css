@@ -342,18 +342,28 @@ header {
       color: #fff;
       display: block;
       font-family: "Raleway" , sans-serif;
-      font-size: 30px; }
+      font-size: 30px;
+      margin-bottom: 8px;
+      margin-top: -12px; }
     .Status .elips p {
       color: #fff;
       font-size: 30px;
       font-family: "Raleway" , sans-serif;
       text-transform: uppercase; }
-    .Status .elips .pp {
-      margin-top: -384px; }
-    .Status .elips .ss {
-      display: inline-block; }
-    .Status .elips .cc {
-      display: inline-block; }
+
+.pp {
+  margin-top: -406px;
+  margin-bottom: 306px; }
+
+.ss {
+  display: inline-block;
+  margin-left: 113px; }
+
+.cc {
+  display: inline-block;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 62px; }
 
 #superfooter {
   height: 86px;
