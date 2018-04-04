@@ -49,6 +49,7 @@ html,body
 .heading{ 
         text-align: center;
         margin-bottom: 76px;
+        position: relative;
   h2
         {
                 color: #595959;
@@ -61,7 +62,19 @@ html,body
                 margin-bottom: 4px;
                 
         }
-}header
+}
+.heading:after
+{
+                content: '';
+                display: block;
+                width: 116px;
+                height: 9px;
+                background-color: #88ccd8;
+                position: absolute;
+                margin-left: 480px;
+        
+}
+header
 {
         background-image: url(../image/header_bg.jpg);
         padding-bottom: 123px;
@@ -77,14 +90,12 @@ html,body
                 margin-left: 366px;
                  box-shadow: 0px 0px 6px 11px rgba(255,255,255,.100);
                         }      
-                        h1 
+                        .Brunoname
                         {
-                                font-family: 'Taiga';
-                                font-size: 44px;
-                                color: #fff;
+                               
                                 text-align: center;
                                 margin-top: 48px;
-                                font-weight: 400;
+                                
                         }
                                 p 
                         {
@@ -195,6 +206,11 @@ padding-bottom: 123px;
                                 float: right;
                                 margin-top: 5px;
                                 margin-right: 10px;
+                                iframe 
+                                {
+                                        width: 462px;
+                                        height: 344px;
+                                }
                         }
         
 }
@@ -350,7 +366,14 @@ background-color: #f3f3f3;
                 margin-left: 1px;
                 margin-bottom: 60px;
                 box-shadow: 0 0 16px -8px;
-                vertical-align: top;}
+                vertical-align: top;
+                iframe 
+                {
+                        width: 282px;
+                        height: 178px;
+                }
+                
+                }
                 .long-text{
                            text-align: left;
                                 padding-left: 26px;
@@ -430,7 +453,7 @@ background-color: #f3f3f3;
                 margin-top: 17px;
                 font-family: "Raleway" , sans-serif;
                 font-weight: 500;   
-                color: #b3b3b3;
+                color: #515151;
                         span 
                         {
                                    text-transform: uppercase;

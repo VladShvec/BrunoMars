@@ -39,7 +39,8 @@ html, body {
 
 .heading {
   text-align: center;
-  margin-bottom: 76px; }
+  margin-bottom: 76px;
+  position: relative; }
   .heading h2 {
     color: #595959;
     font-weight: 900;
@@ -49,6 +50,15 @@ html, body {
     line-height: normal;
     text-align: center;
     margin-bottom: 4px; }
+
+.heading:after {
+  content: '';
+  display: block;
+  width: 116px;
+  height: 9px;
+  background-color: #88ccd8;
+  position: absolute;
+  margin-left: 480px; }
 
 header {
   background-image: url(../image/header_bg.jpg);
@@ -64,13 +74,9 @@ header {
     width: 332px;
     margin-left: 366px;
     box-shadow: 0px 0px 6px 11px rgba(255, 255, 255, 0.1); }
-  header h1 {
-    font-family: 'Taiga';
-    font-size: 44px;
-    color: #fff;
+  header .Brunoname {
     text-align: center;
-    margin-top: 48px;
-    font-weight: 400; }
+    margin-top: 48px; }
   header p {
     margin-top: 28px;
     text-align: center;
@@ -155,6 +161,9 @@ header {
     float: right;
     margin-top: 5px;
     margin-right: 10px; }
+    .About_me .video iframe {
+      width: 462px;
+      height: 344px; }
 
 .MyServices {
   padding-top: 68px;
@@ -267,6 +276,9 @@ header {
       margin-bottom: 60px;
       box-shadow: 0 0 16px -8px;
       vertical-align: top; }
+      .Blog .l_bocks .longer_bocks iframe {
+        width: 282px;
+        height: 178px; }
     .Blog .l_bocks .long-text {
       text-align: left;
       padding-left: 26px;
@@ -328,7 +340,7 @@ header {
     margin-top: 17px;
     font-family: "Raleway" , sans-serif;
     font-weight: 500;
-    color: #b3b3b3; }
+    color: #515151; }
     .Blog .blog_title span {
       text-transform: uppercase;
       color: #64c9db;
