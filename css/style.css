@@ -39,7 +39,7 @@ html, body {
 
 .heading {
   text-align: center;
-  margin-bottom: 76px;
+  margin-bottom: 100px;
   position: relative; }
   .heading h2 {
     color: #595959;
@@ -55,10 +55,12 @@ html, body {
   content: '';
   display: block;
   width: 116px;
-  height: 9px;
-  background-color: #88ccd8;
+  height: 7px;
+  background-color: #31c4dd;
   position: absolute;
-  margin-left: 480px; }
+  margin-left: 484px;
+  margin-top: 10px;
+  top: 50px; }
 
 header {
   background-image: url(../image/header_bg.jpg);
@@ -156,7 +158,8 @@ header {
       text-transform: uppercase;
       line-height: 1.9;
       text-align: left;
-      font-weight: 400; }
+      font-weight: 400;
+      font-family: "Raleway" , sans-serif; }
   .About_me .video {
     float: right;
     margin-top: 5px;
@@ -200,7 +203,8 @@ header {
         text-transform: uppercase;
         text-align: center;
         line-height: 1.4;
-        color: #a4a6a7; }
+        color: #a4a6a7;
+        font-family: "Raleway" , sans-serif; }
 
 .Portfolio {
   /*height: 526px;*/
@@ -227,30 +231,6 @@ header {
       .Portfolio .image_block p span {
         font-weight: 600;
         font-size: 17px; }
-
-.image_block:nth-child(1) {
-  background-image: url(../image/street.jpg); }
-
-.image_block:nth-child(2) {
-  background-image: url(../image/homs.jpg); }
-
-.image_block:nth-child(3) {
-  background-image: url(../image/guitar.jpg); }
-
-.image_block:nth-child(4) {
-  background-image: url(../image/women.jpg); }
-
-.image_block:nth-child(5) {
-  background-image: url(../image/city.jpg); }
-
-.image_block:nth-child(6) {
-  background-image: url(../image/bird.jpg); }
-
-.image_block:nth-child(7) {
-  background-image: url(../image/lights.jpg); }
-
-.image_block:nth-child(8) {
-  background-image: url(../image/phone.jpg); }
 
 .image_block p:hover {
   background: rgba(0, 0, 0, 0.8) url(../image/plus.png);
@@ -356,7 +336,24 @@ header {
   padding-top: 159px; }
   .Status .elips {
     text-align: center;
-    margin-left: 62px; }
+    margin-left: 0x;
+    margin-top: 85px; }
+    .Status .elips span {
+      color: #fff;
+      display: block;
+      font-family: "Raleway" , sans-serif;
+      font-size: 30px; }
+    .Status .elips p {
+      color: #fff;
+      font-size: 30px;
+      font-family: "Raleway" , sans-serif;
+      text-transform: uppercase; }
+    .Status .elips .pp {
+      margin-top: -384px; }
+    .Status .elips .ss {
+      display: inline-block; }
+    .Status .elips .cc {
+      display: inline-block; }
 
 #superfooter {
   height: 86px;

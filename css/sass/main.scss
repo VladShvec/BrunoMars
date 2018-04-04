@@ -48,7 +48,7 @@ html,body
 }
 .heading{ 
         text-align: center;
-        margin-bottom: 76px;
+        margin-bottom: 100px;
         position: relative;
   h2
         {
@@ -68,10 +68,13 @@ html,body
                 content: '';
                 display: block;
                 width: 116px;
-                height: 9px;
-                background-color: #88ccd8;
+                height: 7px;
+                background-color: #31c4dd;
                 position: absolute;
-                margin-left: 480px;
+                margin-left: 484px;
+                margin-top: 10px;
+                top: 50px;
+
         
 }
 header
@@ -198,6 +201,7 @@ padding-bottom: 123px;
                                 line-height: 1.9;
                                 text-align: left;
                                 font-weight: 400;
+                                font-family: "Raleway" , sans-serif;
                                 
                         }
                 } 
@@ -264,6 +268,7 @@ padding-bottom: 123px;
                         text-align: center;
                         line-height: 1.4;
                         color: #a4a6a7;
+                        font-family: "Raleway" , sans-serif;
                 }
         }
         }
@@ -305,38 +310,6 @@ background-color: #f3f3f3;
                         }
                 }
         }
-}
-.image_block:nth-child(1)
-{
-        background-image: url(../image/street.jpg);
-}
-.image_block:nth-child(2)
-{
-        background-image: url(../image/homs.jpg);
-}
-.image_block:nth-child(3)
-{
-        background-image: url(../image/guitar.jpg);
-}
-.image_block:nth-child(4)
-{
-        background-image: url(../image/women.jpg);
-}
-.image_block:nth-child(5)
-{
-        background-image: url(../image/city.jpg);
-}
-.image_block:nth-child(6)
-{
-        background-image: url(../image/bird.jpg);
-}
-.image_block:nth-child(7)
-{
-        background-image: url(../image/lights.jpg);
-}
-.image_block:nth-child(8)
-{
-        background-image: url(../image/phone.jpg);
 }
 .image_block p:hover
 {
@@ -475,10 +448,37 @@ background-color: #f3f3f3;
         .elips
         {
                 text-align: center;
-                margin-left: 62px;
+                margin-left: 0x;
+                margin-top: 85px;
+                span 
+                {
+                        color: #fff;
+                        display: block;
+                        font-family: "Raleway" , sans-serif;
+                        font-size: 30px;
+                        
+                }
+                p
+                {
+                        color: #fff;
+                        font-size: 30px;
+                        font-family: "Raleway" , sans-serif;
+                        text-transform: uppercase;
+                }
+                .pp
+                {
+                        margin-top: -384px;
+                }
+                .ss{
+                        display: inline-block;
+                }
+                .cc{
+                        display: inline-block;
+                }
         }
+        }
+        
 
-}
 #superfooter{
         height: 86px;
     padding-top: 70px;
