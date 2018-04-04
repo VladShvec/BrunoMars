@@ -319,14 +319,13 @@ header {
     text-transform: capitalize;
     margin-top: 17px;
     font-family: "Raleway" , sans-serif;
-    font-weight: 500;
     color: #515151; }
     .Blog .blog_title span {
       text-transform: uppercase;
       color: #64c9db;
       font-size: 24px;
       font-family: "Raleway" , sans-serif;
-      font-weight: 600;
+      font-weight: bold;
       margin-right: 0px; }
 
 .Status {
