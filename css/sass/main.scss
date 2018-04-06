@@ -583,7 +583,7 @@ background-color: #f3f3f3;
         
 
 }
-@media screen and(max-width: 700px)
+@media screen and(max-width: 800px)
 {
        .video
         {
@@ -595,6 +595,9 @@ background-color: #f3f3f3;
                 width: 100% !important;
                 text-align: center;
                 margin-left: 0 !important;
+                p {
+                        font-size: 20px !important;
+                }
         }
         .block_with_images
         {
