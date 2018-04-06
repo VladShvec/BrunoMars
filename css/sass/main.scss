@@ -620,6 +620,17 @@ background-color: #f3f3f3;
                 background-position: -52px top !important;
         }
 }
+@media screen and(max-width: 450px)
+{
+        .Blog
+        {
+                .l_bocks
+                {
+                        margin-left: 0 !important;
+                        text-align: center;
+                }
+        }
+}
 @media screen and(max-width: 400px)
 {
         
@@ -653,7 +664,7 @@ background-color: #f3f3f3;
                 
                 
         }
-  
+          
   
 }
 }
