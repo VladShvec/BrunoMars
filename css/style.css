@@ -23,11 +23,6 @@ html, body {
   display: block;
   clear: both; }
 
-.video:after {
-  content: '';
-  display: block;
-  clear: both; }
-
 #footer:before {
   content: '';
   display: block;
@@ -73,7 +68,8 @@ header {
     width: 332px;
     display: block;
     text-align: center;
-    box-shadow: 0px 0px 6px 11px rgba(255, 255, 255, 0.1); }
+    box-shadow: 0px 0px 6px 11px rgba(255, 255, 255, 0.1);
+    margin: auto; }
   header .Brunoname {
     text-align: center;
     margin-top: 48px; }
@@ -167,6 +163,10 @@ header {
     .About_me .video iframe {
       width: 462px;
       height: 344px; }
+  .About_me .video:after {
+    content: '';
+    display: block;
+    clear: both; }
 
 .MyServices {
   padding-top: 68px;
@@ -376,10 +376,10 @@ header {
   margin-left: 62px; }
 
 #superfooter {
-  height: 86px;
   text-align: center;
   padding-top: 70px;
-  background-color: #f3f3f3; }
+  background-color: #f3f3f3;
+  padding-bottom: 70px; }
   #superfooter .Status_title {
     text-align: center;
     font-family: "Raleway" , sans-serif;
@@ -388,7 +388,8 @@ header {
     color: #595959;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 7px; }
+    margin-right: 7px;
+    margin-bottom: 10px; }
   #superfooter a {
     display: inline-block;
     font-size: 25px;
@@ -413,17 +414,58 @@ header {
     font-family: "Raleway";
     display: inline-block; }
   #footer .soc {
-    display: inline-block;
     float: right;
     padding-top: 15px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .video {
-    width: 462px;
-    height: 344px; } }
-@media screen and (max-width: 900px) {
-  .video {
-    width: 462px;
-    height: 344px; } }
+    float: none !important;
+    text-align: center;
+    margin-right: 0 !important; }
+
+  .About-text {
+    width: 100% !important;
+    text-align: center;
+    margin-left: 0 !important; }
+
+  .block_with_images {
+    text-align: center; }
+
+  .image_block {
+    margin-right: 0 !important; } }
+@media screen and (max-width: 500px) {
+  .video iframe {
+    width: 92% !important; }
+
+  .main_photo {
+    width: 200px !important;
+    height: 200px !important;
+    background-position: -52px top !important; } }
+@media screen and (max-width: 400px) {
+  #footer {
+    height: 70px;
+    padding-top: 2px;
+    background-color: #f3f3f3;
+    text-align: center; }
+    #footer p {
+      padding-top: 20px;
+      font-size: 25px;
+      color: #8e8e8e;
+      font-family: "Raleway";
+      display: inline-block; }
+    #footer .soc {
+      display: none;
+      text-align: center;
+      padding-top: 15px; } }
+@media screen and (max-width: 320px) {
+  .About-text p {
+    min-width: 275px;
+    font-size: 14px !important; }
+
+  .button:nth-child(2) {
+    margin-right: 28px !important; }
+
+  .video iframe {
+    width: 79% !important; } }
 
 /*# sourceMappingURL=style.css.map */

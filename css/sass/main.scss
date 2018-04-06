@@ -29,12 +29,7 @@ html,body
         display: block;
         clear: both;
 }
-.video:after
-{
-        content: '';
-        display: block;
-        clear: both;
-}
+
 #footer:before
 {
         content: '';
@@ -90,6 +85,7 @@ header
                 display: block;
                         text-align: center;
                  box-shadow: 0px 0px 6px 11px rgba(255,255,255,.100);
+                        margin: auto;
                         }      
                         .Brunoname
                         {
@@ -221,6 +217,12 @@ padding-bottom: 123px;
                                         height: 344px;
                                 }
                         }
+        .video:after
+{
+        content: '';
+        display: block;
+        clear: both;
+}
         
 }
 .MyServices
@@ -516,10 +518,11 @@ background-color: #f3f3f3;
         
 
 #superfooter{
-        height: 86px;
+       
         text-align: center;
     padding-top: 70px;
         background-color: #f3f3f3;
+        padding-bottom: 70px;
 
         .Status_title
 {
@@ -531,6 +534,7 @@ background-color: #f3f3f3;
         display: inline-block;
         vertical-align: middle;
         margin-right: 7px;
+        margin-bottom: 10px;
         }
         a 
         {
@@ -561,34 +565,118 @@ background-color: #f3f3f3;
                 display: inline-block;
         }
         
-        .soc
-        {
-                display: inline-block;
+        .soc {
                 float: right;
                 padding-top: 15px;
                 
                 
         }
+   
+        
+  
 }
+  
 
 @media screen and(max-width: 1000px)
 {
 
-                .video
+        
+
+}
+@media screen and(max-width: 700px)
+{
+       .video
         {
-                width: 462px;
-                height: 344px;
+                float: none !important;
+                text-align: center;
+                margin-right: 0 !important;
+        }
+        .About-text{
+                width: 100% !important;
+                text-align: center;
+                margin-left: 0 !important;
+        }
+        .block_with_images
+        {
+                text-align: center;
+        }
+        .image_block
+        {
+                margin-right: 0 !important;
+                
         }
 }
-@media screen and(max-width: 900px)
+@media screen and(max-width: 500px)
+{
+        .video
+        {
+                iframe{
+                        width: 92% !important;
+                }
+        }
+        .main_photo {
+                width:200px !important ;
+                height: 200px !important;
+                background-position: -52px top !important;
+        }
+}
+@media screen and(max-width: 400px)
 {
         
       
                 .video
         {
-                width: 462px;
-                height: 344px;
+               
+        }
+                #footer
+{
+                height: 70px;
+                padding-top: 2px;
+                background-color: #f3f3f3;
+                text-align: center;
+        p {
+                padding-top: 20px;
+               
+                font-size: 25px;
+                color: #8e8e8e;
+                font-family: "Raleway";
+                display: inline-block;
+        }
+        
+        .soc
+        {
+                display: none;
+                text-align: center;
+                padding-top: 15px;
+                
+               
+                
+                
         }
   
   
+}
+}
+@media screen and(max-width: 320px)
+{
+        .About-text
+        {
+                p {
+                        min-width: 275px;
+                        font-size: 14px !important;
+                }
+        }
+        .button:nth-child(2){
+                margin-right: 28px !important;
+        }
+        .video
+        {
+                iframe{
+                        
+                        width: 79% !important;
+                        
+                        
+                        
+                }
+        }
 }
