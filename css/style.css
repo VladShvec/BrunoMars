@@ -52,12 +52,10 @@ html, body {
 
 .heading:after {
   content: '';
-  display: block;
+  display: inline-block;
   width: 116px;
   height: 7px;
   background-color: #31c4dd;
-  position: absolute;
-  margin-left: 484px;
   margin-top: 10px;
   top: 50px; }
 
@@ -73,7 +71,8 @@ header {
     border-radius: 50%;
     height: 334px;
     width: 332px;
-    margin-left: 366px;
+    display: block;
+    text-align: center;
     box-shadow: 0px 0px 6px 11px rgba(255, 255, 255, 0.1); }
   header .Brunoname {
     text-align: center;
@@ -97,14 +96,16 @@ header {
     padding-bottom: 13px;
     display: inline-block;
     margin-right: 9px;
-    font-weight: 400; }
+    font-weight: 400;
+    box-sizing: border-box; }
     header .button:nth-child(1) a {
       color: #fff;
       font-weight: 400;
       padding-left: 34px;
       padding-right: 34px;
       padding-bottom: 9px;
-      padding-top: 12px; }
+      padding-top: 12px;
+      box-sizing: border-box; }
   header .button:nth-child(2) {
     border: 2px solid #fff;
     border-radius: 10px 10px 10px 10px;
@@ -116,25 +117,26 @@ header {
     display: inline-block;
     margin-right: -7px;
     margin-left: 19px;
-    font-weight: 400; }
+    font-weight: 400;
+    box-sizing: border-box; }
     header .button:nth-child(2) a {
       color: #fff;
       font-weight: 400;
       padding-left: 26px;
       padding-right: 30px;
       padding-bottom: 9px;
-      padding-top: 12px; }
+      padding-top: 12px;
+      box-sizing: border-box; }
 
 .About_me {
   /*height: 613px;*/
-  height: 494px;
+  /*height: 494px;*/
   padding-top: 67px;
   background-color: #f3f3f3;
   padding-bottom: 123px; }
   .About_me .About-text {
     margin-left: 10px;
-    width: 508px;
-    margin-right: 91px; }
+    width: calc(55% - 91px); }
     .About_me .About-text h3 {
       font-family: "Raleway" , sans-serif;
       font-size: 26px;
@@ -177,13 +179,13 @@ header {
     .MyServices .heading h2 {
       color: #fff; }
   .MyServices .l_bocks {
-    margin-left: 8px; }
+    margin-left: 8px;
+    text-align: justify; }
     .MyServices .l_bocks .smallblock {
-      width: 300px;
+      width: 30%;
       text-align: center;
       vertical-align: top;
       display: inline-block;
-      margin-right: 83px;
       margin-bottom: 105px; }
       .MyServices .l_bocks .smallblock img {
         vertical-align: top; }
@@ -204,6 +206,11 @@ header {
         font-family: "Raleway" , sans-serif; }
   .MyServices .smallblock:nth-child(3n) {
     margin-right: 0; }
+
+.l_bocks:after {
+  content: '';
+  display: inline-block;
+  width: 100%; }
 
 .Portfolio {
   /*height: 526px;*/
@@ -243,13 +250,13 @@ header {
   padding-top: 29px;
   background-color: #f3f3f3; }
   .Blog .l_bocks {
-    margin-left: 12px; }
+    margin-left: 12px;
+    text-align: justify; }
     .Blog .l_bocks .longer_bocks {
       background-color: #fff;
       width: 281px;
       display: inline-block;
       padding: 14px;
-      margin-right: 61px;
       margin-left: 1px;
       margin-bottom: 60px;
       box-shadow: 0 0 16px -8px;
@@ -311,6 +318,10 @@ header {
           padding-left: 10px;
           padding-right: 10px;
           font-size: 19px; }
+  .Blog .l_bocks:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
   .Blog .blog_title {
     font-size: 26px;
     text-align: center;
@@ -366,20 +377,20 @@ header {
 
 #superfooter {
   height: 86px;
+  text-align: center;
   padding-top: 70px;
   background-color: #f3f3f3; }
   #superfooter .Status_title {
     text-align: center;
     font-family: "Raleway" , sans-serif;
     font-size: 24px;
-    margin-left: -185px;
     text-transform: capitalize;
-    color: #595959; }
+    color: #595959;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px; }
   #superfooter a {
     display: inline-block;
-    float: right;
-    margin-top: -45px;
-    margin-right: 236px;
     font-size: 25px;
     font-family: "Raleway";
     padding-top: 19px;
@@ -388,7 +399,8 @@ header {
     border-radius: 10px 10px 10px 10px;
     background-color: #5dbed2;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    vertical-align: middle; }
 
 #footer {
   height: 70px;
@@ -406,7 +418,12 @@ header {
     padding-top: 15px; }
 
 @media screen and (max-width: 1000px) {
-  .MyServices .l_bocks {
-    margin-left: 0px; } }
+  .video {
+    width: 462px;
+    height: 344px; } }
+@media screen and (max-width: 900px) {
+  .video {
+    width: 462px;
+    height: 344px; } }
 
 /*# sourceMappingURL=style.css.map */
